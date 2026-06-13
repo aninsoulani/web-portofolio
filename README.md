@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anin Soulani — Portfolio Website
 
-## Getting Started
+A luxury, minimalist, and high-performance portfolio website built for a Software Engineer, showcasing enterprise systems engineering, web development, and academic projects.
 
-First, run the development server:
+## 🚀 Live Demo
+**https://portofolio-anin.vercel.app/**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
+- **Dark/Light Mode Support**: Seamless theme switching with system preference detection.
+- **Precision Glassmorphism Design**: High-contrast, sleek, and elegant user interface prioritizing content readability and aesthetics.
+- **Fully Responsive**: Optimized for all screen sizes, from mobile to ultra-wide desktop monitors.
+- **Enterprise-Grade Architecture**: Built with modern web standards ensuring high performance and SEO readiness.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
+- `src/app/` — All page routes (Home, Skills, Experience, Academic, Projects, Contact).
+- `src/components/` — Reusable, atomic UI components.
+- `public/` — Static assets (images, logos, and favicons).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Running Locally
 
-## Learn More
+To run this project on your local machine:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/aninsoulani/web-portofolio.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd portofolio-web
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+This project is for personal portfolio usage by Anin Soulani.
