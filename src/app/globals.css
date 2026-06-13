@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* =============================================
+   PRECISION LUXURY DESIGN SYSTEM
+   Luxury Minimalist + Senior Engineer
+   ============================================= */
+
+/* --- Light Mode (Default) --- */
+:root {
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --foreground: #0f172a;
+  --foreground-secondary: #64748b;
+  --border: #e2e8f0;
+  --accent: #0f172a;
+  --accent-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #94a3b8;
+}
+
+/* --- Dark Mode --- */
+.dark {
+  --background: #000000;
+  --surface: #0a0a0a;
+  --foreground: #f8fafc;
+  --foreground-secondary: #94a3b8;
+  --border: #1e293b;
+  --accent: #f8fafc;
+  --accent-foreground: #000000;
+  --muted: #0f172a;
+  --muted-foreground: #64748b;
+}
+
+/* --- Tailwind v4 Theme Integration --- */
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+/* --- Base Styles --- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Selection Styling --- */
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-foreground);
+}
+
+/* --- Custom Scrollbar (Luxury Minimalist) --- */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+}
